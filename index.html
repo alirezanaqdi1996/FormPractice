@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice From</title>
+    <style>
+        *{
+            padding: 0; 
+            margin: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 50%;
+            box-shadow: 0 4px 15px rgb(0, 0, 0.15);
+            padding: 30px;
+            background-color: rgb(247, 245, 245);
+          
+        }
+        body{
+              display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            margin: 5px auto;
+        }
+       
+        input,select,textarea{
+            width: 100%;
+            padding: 10px;
+        }
+        textarea{
+            resize: vertical;
+            
+        }
+        button{
+            display: block;
+            width: 100px;
+            padding: 10px;
+            margin-top: 25px ;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(66, 220, 66);
+        }
+        input{
+            margin-bottom: 20px;
+        }
+        select{
+            margin-bottom: 20px;
+        }
+        label{
+            margin-bottom: 5px;
+        }
+        h2{
+            margin: 15px auto;
+            text-align: left;
+            width: 50%;
+            
+
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Contact Form</h2>
+        <main>
+            
+            <Form>
+                <label for="" >First Name*</label>
+                <input type="text" placeholder="Your first name">
+                <label for="">Last Name*</label>
+                <input type="text" placeholder="Your last name">
+                <label for="">Country</label>
+                <select name="" id="">
+                    <option value="01">Australlia</option>
+                    <option value="02">Canada</option>
+                    <option value="03">America</option>
+                </select>
+                <label for="">Subject*</label>
+                <textarea name="" id="" placeholder="Write something..." rows="10" cols="100"></textarea>
+                <button>Submit</button>
+            </Form>
+
+        </main>
+</body>
+</html>
